@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+:root{
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: var(--font-style);
+}
+
+.head{
+    background-color: blueviolet;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: aliceblue;
+}
+
+.head h1{
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.head ul{
+    text-align: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.head ul li{
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.head ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.foot{
+    background-color: blueviolet;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: aliceblue;
+}
+
+.foot p{
+    font-weight: bolder;
+    
+}
+
+.foot ul{
+    text-align: right;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.foot ul li{
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.foot ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.text{
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.cont2{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    padding: 20px;
+    background-color: yellow;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.ptfl{
+    text-align: center;
+}
+
+.ptfl a button{
+    padding: 15px;
+    font-weight: bolder;
+    transition: 0.5s;
+    border: none;
+}
+
+.ptfl p{
+    padding-bottom: 15px;
+}
+
+.cont3{                                             /* Certifications */
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: red;
+
+    display: none;
+}
+
+.ptfl2{
+    text-align: center;
+}
+
+.ptfl2 a button{
+    padding: 15px;
+    font-weight: bolder;
+    transition: 0.5s;
+    border: none;
+}
+
+.ptfl2 p{
+    padding-bottom: 15px;
+}
+
+.cont4{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: aquamarine;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.ptfl3{
+    text-align: center;
+}
+
+.ptfl3 a button{
+    padding: 15px;
+    font-weight: bolder;
+    transition: 0.5s;
+    border: none;
+}
+
+.ptfl3 p{
+    padding-bottom: 15px;
+}
+
+.text p{
+    padding-bottom: 15px;
+}
+
+.text img{
+    position: relative;
+    flex-wrap: inherit;
+    padding-top: 50px;
+}
+
+.cont1 .text img{
+    float: right;
+}
+
+.cont1 .text h3{
+    font-size: 22px;
+}
+
+#linkedin a{
+    transition: 0.5s;
+}
+
+#linkedin a:hover{
+    color: #0072b1;
+    transition: 0.5s;
+}
+
+#github a{
+    transition: 0.5s;
+}
+
+#github a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+#home a{
+    transition: 0.5s;
+}
+
+#home a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+#mail a{
+    transition: 0.5s;
+}
+
+#mail a:hover{
+    color: red;
+    transition: 0.5s;
+}
+
+#projects a{
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+#projects a:hover{
+    color: green;
+    transition: 0.5s;
+}
+
+#blogs a{
+    transition: 0.5s;
+}
+
+#blogs a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+
+#fvi{
+    transition: 0.5s;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+#fvi:hover{
+    color: green;
+    transition: 0.5s;
+}
+
+#bcis{
+    transition: 0.5s;
+    font-weight: bolder;
+}
+
+#bcis:hover{
+    color: blue;
+    transition: 0.5s;
+}
+
+#webdev{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-left: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+
+#webdev:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+    color: white;
+}
+
+#cpp{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+    border-right: 2px solid blue;
+}
+
+#cpp:hover{
+    background-color: cyan;
+    color: white;
+    transition: 0.5s;
+}
+
+#word{
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+
+#word:hover{
+    background-color: blue;
+    color: white;
+    transition: 0.5s;
+}
+
+#ppt{
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+
+#ppt:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+
+#excel{
+    border-bottom: 2px solid blue;
+    border-top: 2px solid blue;
+}
+
+#excel:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+}
+
+#blog{
+    border: none;
+    border-radius: 20px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#blog:hover{
+    background-image: linear-gradient(to right, blue, blueviolet, purple);
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+}

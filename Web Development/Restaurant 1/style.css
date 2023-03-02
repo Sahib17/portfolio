@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+:root
+{
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: var(--font-style);
+}
+
+.nav
+{
+    background-color: rgb(0, 117, 0);
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: flex-end;
+}
+
+.nav ul
+{
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.nav ul li 
+{
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.heading
+{
+    background: url('https://images.deliveryhero.io/image/fd-bd/LH/zp2n-hero.jpg') center no-repeat;
+    background-size: cover;
+    height: 45vh;
+    display: flex;
+}
+.heading h1, .heading span
+{
+    color: white;
+    font-size: 50px;
+    margin: auto;
+}
+
+.heading em{
+    color: white;
+}
+
+.menu
+{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.content-bx
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vw;
+}
+
+.sub-heading
+{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+}
+
+
+.dish-typ
+{
+    margin: 30px 0 0 30px;
+}
+
+.dish-infos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.dish-info
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 62px;
+    margin-right: 25px;
+}
+
+.dish-info .title
+{
+    margin-bottom: 20px;
+}
+
+.dish-info .desc
+{
+    color: grey;
+    font-style: italic;
+    text-align: justify;
+}
+
+.dish-info2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-info2 img
+{
+    margin: 0 62px 0 0;
+    width: 190px;
+    border-radius: 20px;
+}
+
+.dish-info2 button
+{
+    margin: 10px 0;
+    padding: 12px;
+    width: 190px;
+    cursor: pointer;
+    background: #799be6;
+    color: white;
+    transition: .5s ease;
+    border-radius: 10px
+}
+    
+.dish-info2 button:hover
+{
+    background: black;
+    border: 2px solid #799be6;
+    box-shadow: 0 0 10px 0 #799be6 inset,
+                0 0 10px 4px #799be6;
+    border-radius: 10px;
+
+}
+
+.dish-info2 .price
+{
+    width: 190px;
+}
+
+footer
+{
+    display: flex;
+    background-color: rgb(0, 117, 0);
+}
+
+footer .footer
+{
+    margin: auto;
+    padding: 50px;
+}
+
+.footer h2, .footer .copyright, .footer ul
+{
+    margin: 20px;
+    text-align: center;
+}
+
+.footer li
+{
+    display: inline;
+    padding: 0 20px;
+} 
+
+.ftr-bdr
+{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+footer a
+{
+    color: white;
+    text-decoration: none;
+}

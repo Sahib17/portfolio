@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+:root{
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    font-family: var(--font-style);
+    background-color: black;
+    color: white;
+}
+
+.nav{
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: flex-end;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: url(/Glitch.gif);
+}
+
+.nav ul
+{
+    margin-right: 50px;
+    padding: 10px;
+}
+
+.nav ul li 
+{
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav a
+{
+    text-decoration: none;
+    color: red;
+}
+
+.outdis{
+    background-color: green;
+    padding: 10px;
+    transition: 60s;
+}
+
+.outdis:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+.dec p{
+    text-align: center;
+    padding: 75px;
+    background-color: gold;
+    font-size: 50px;
+}
+.dec img{
+    padding-top: 20px;
+    padding-left: 40px;
+    height: 200px;
+    float: left;
+    top: 10px;
+}
+
+input{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    transform: translate(0%, -50%);
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: solid 3px #9A86FD;
+    outline: none;
+    border-radius: 35px;
+    transition: all 0.5s;
+    box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #9A86FD;
+}
+
+input::placeholder{
+    color: #efefef;
+    opacity: 0;
+    transition: opacity 150ms ease-out;
+}
+
+input:focus::placeholder{
+    opacity: 1;
+}
+
+input:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #FF8870;
+}
+
+input:focus, input:not(:placeholder-shown){
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #FF8870;
+}
+
+.aboutus h2{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.aboutus p{
+    padding: 25px;
+    font-size: 20px;
+}
+
+.aboutus img{
+    float:right;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.first{
+    width: 860px;
+    margin-top: 0 auto;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.first ul{
+    list-style: none;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.first ul li{
+    width: 170px;
+    border: 1px solid blueviolet;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: rgb(189, 63, 63);
+    font-size: 24px;
+    position: relative;
+    transition: 0.5s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: blue;
+}
+
+.first ul li:hover{
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.first ul ul{
+    display: none;
+    background-color: green;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.first ul li:hover >ul{
+    background-color: green;
+    display: block;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.first ul ul ul{
+    background-color: gold;
+    margin-left: 130px;
+    top: 0;
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.two li{
+    background-color: black;
+}
+
+.two li:hover{
+    background-color: green;
+}
+
+.three li:hover{
+    background-color: gold;
+}
+
+.foot{
+    background-color: blueviolet;
+    padding: 50px;
+    text-align: center;
+}
+
+.featured{
+    padding-top: 75px;
+    text-align: center;  
+}
+
+.featured h2{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.featured video{
+    height: 450px;
+}
+
+.Maxx{
+    font-size: 120%;
+    color: green;
+    font-weight: bold;
+    font-family: cursive;
+}
