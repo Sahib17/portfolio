@@ -338,3 +338,82 @@ body{
     color: white;
     transition: 0.5s;
 }
+
+#tempp{
+    display: none;
+}
+
+@media only screen and (max-width: 400px){
+    .head{
+        margin-right: 0px;
+        margin-left: 0px;
+        border-radius: 0px;
+    }
+
+    .head h1{
+        padding: 0px;
+    }
+
+    .foot{
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .text img{
+        display: none;
+    }
+
+    /* .cont2 .ptfl button{
+        
+    } */
+
+    .cont2{
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .cont3{
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    .cont4{
+        margin: 0px;
+        border-radius: 0px;
+    }
+
+    #tempp{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #word{
+        border-radius: 15px;
+        border: 1px solid blue;
+        margin-left: 90px;
+    }
+
+    #webdev{
+        border-radius: 15px;
+        border: 1px solid blue;
+        margin-left: 90px;
+    }
+
+    #excel{
+        border-radius: 15px;
+        border: 1px solid blue;
+        margin-left: 90px;
+    }
+
+    #ppt{
+        border-radius: 15px;
+        border: 1px solid blue;
+    }
+
+    #cpp{
+        border-radius: 15px;
+        border: 1px solid blue;
+    }
+}
